@@ -1,0 +1,6 @@
+[workspace]
+members = ["lsp", "keymap", "autoload"]
+resolver = "3"
+
+[workspace.dependencies]
+nvim-oxi = { version = "0.6.0", features = ["neovim-0-10", "neovim-0-11"] }
